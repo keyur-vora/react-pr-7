@@ -1,0 +1,124 @@
+/* General styles for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  h2 {
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f0e6e6;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  table {
+    color: #6a5858;
+  }
+
+  th {
+    background-color: #6a5858;
+    color: white;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Alternate row colors */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Input field styles */
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit button styles */
+  input[type="submit"] {
+    background-color: #6a5858; /* Blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 10px ;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #6a5858; /* Darker blue on hover */
+  }
+  
+  /* Button styles for actions in View component */
+  button {
+    background-color: #6a5858;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0px 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6a5858;
+  }
+  
+
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6a5858;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #6a5858;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #6a5858;
+    color: #ffffff;
+    border-color: #6a5858;
+  }
+  
